@@ -67,3 +67,49 @@ nav {
   border-radius: 18px;
   color: white;
 }
+
+.nav-item {
+  cursor: pointer;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+html,
+body {
+}
+
+@media (max-width: 600px) {
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .center {
+    font-size: 3.5rem;
+  }
+  .center2 {
+    top: 7rem;
+  }
+
+  .learn-more-btn {
+    top: 9rem;
+  }
+
+  .intro-img {
+    width: 25rem;
+    left: 0rem;
+    top: 3rem;
+  }
+
+  .vector-img {
+    width: 5rem;
+    left: 35px;
+    top: 25rem;
+  }
+
+  .signin-btn {
+    right: 0;
+  }
+}
